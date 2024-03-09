@@ -5,10 +5,9 @@ The Generated Videos folder contains generated videos of VRNN on (12, 12) type p
 
 The Training_Prediction folder contains related dataset and functions.
 
-The folder config contains the yaml file of VoxCeleb dataset.
+The config folder contains the yaml file of VoxCeleb dataset.
 
-The folder log is the directory we created to save generated videos.
-
+The log folder is the directory we created to save generated videos.
 
 The jupyter files are named as "Full_Pipeline_{Deep Learning Network}_VoxCeleb_{Mode}" where Deep Learning Network can be RNN/VAE/VRNN, and mode can be reconstruction mode/ transfer mode.
 
