@@ -3,11 +3,12 @@ This is a repo for full pipeline with keypoints prediction using RNN/VAE/VRNN in
 
 The Generated Videos folder contains generated videos of VRNN on (12, 12) type prediction in both reconstruction and transfer mode.
 
+The Training_Prediction folder contains related dataset and functions.
+
 The folder config contains the yaml file of VoxCeleb dataset.
 
 The folder log is the directory we created to save generated videos.
 
-The Training_Prediction contains related dataset and functions.
 
 The jupyter files are named as "Full_Pipeline_{Deep Learning Network}_VoxCeleb_{Mode}" where Deep Learning Network can be RNN/VAE/VRNN, and mode can be reconstruction mode/ transfer mode.
 
