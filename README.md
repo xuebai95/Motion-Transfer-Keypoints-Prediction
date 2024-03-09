@@ -1,6 +1,8 @@
 # Motion-Transfer-Keypoints-Prediction
 This is a repo for full pipeline with keypoints prediction using RNN/VAE/VRNN in reconstruction/transfer mode for VoxCeleb dataset.
 
+The Generated Videos folder contains generated videos of VRNN on (12, 12) type prediction in both reconstruction and transfer mode.
+
 The folder config contains the yaml file of VoxCeleb dataset.
 
 The folder log is the directory we created to save generated videos.
