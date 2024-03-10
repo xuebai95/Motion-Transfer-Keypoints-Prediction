@@ -6,11 +6,11 @@ This is a repo containing files for keypoint prediction using RNN/VAE/VRNN in th
 # Directory Contents:
 The Generated Videos folder contains sample videos for the VoxCeleb dataset that have been generated in reconstruction and transfer mode using a prediction horizon of 12.
 
-The Training_Prediction folder contains the Voxceleb data file and functions related to FOMM in the subfolder FOMM and prediction using RNN, VAE and VRNN in the subfolder PREDICTOR.
-The FOMM subfolder files are sourced from the original FOMM github:
+The Training_Prediction folder contains the Voxceleb data file and functions related to FOMM inference in the subfolder FOMM and prediction using RNN, VAE and VRNN in the subfolder PREDICTOR.
+The FOMM subfolder files are partially sourced from the original FOMM github:
 https://github.com/AliaksandrSiarohin/first-order-model
 
-The PREDICTOR subfolder contains files for prediction using RNN, VAE and VRNN (sourced from https://github.com/google-research/google-research/tree/master/video_structure).
+The PREDICTOR subfolder contains files for prediction using RNN, VAE and VRNN (partially sourced from https://github.com/google-research/google-research/tree/master/video_structure).
 
 The config folder contains the yaml file of VoxCeleb dataset.
 
