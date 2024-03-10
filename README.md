@@ -16,15 +16,19 @@ The config folder contains the yaml file of VoxCeleb dataset.
 
 The log folder is the directory for saving generated videos.
 
-The jupyter files are named as "Full_Pipeline_{Deep Learning Network}\_VoxCeleb\_{Mode}_mode" where the Deep Learning Network used for keypoint prediction can be RNN/VAE/VRNN, and the mode can be set to reconstruction or transfer.
+# Jupyter notebooks:
+These can be used to run prediction using the RNN/VAE/VRNN in the FOMM pipeline in either reconstruction or transfer mode for the VoxCeleb dataset. This involves training the predictor and then performing inference. 
+
+The naming convention followed for the notebooks is as below:
+"Full_Pipeline_{Deep Learning Prediction Network}\_VoxCeleb\_{Mode}_mode" where the Deep Learning Network 
 
 # Checkpoints for FOMM model and keypoints 
-Checkpoints for RNN/VAE/VRNN are named as "{Deep Learning Network}_3883videos_vox_{# input frames}_{# output frames}" where {# input frames} and {# output frames} can be 6/12 indicates types of prediction.
+Checkpoints for RNN/VAE/VRNN are named as "{Deep Learning Network}\_3883videos_vox_{# input frames}_{# output frames}" where {# input frames} and {# output frames} can be 6/12 indicates types of prediction.
 
 Checkpoints for the FOMM model trained on the VoxCeleb dataset can be found under this google drive link. 
 https://drive.google.com/drive/folders/1pachVtWHibzDi3E61jUmqFfz2hVxA1GX?usp=drive_link
 
-This file has been sources from the link in the original FOMM github:
+This file has been sourced using the link in the original FOMM github:
 https://github.com/AliaksandrSiarohin/first-order-model
 
 To run this file in the attached Jupyter notebooks, please copy the checkpoint file to the following path "Training_Prediction/FOMM/Trained_Models/" 
