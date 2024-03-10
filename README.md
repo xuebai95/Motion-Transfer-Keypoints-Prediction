@@ -1,9 +1,16 @@
 # Motion-Transfer-Keypoints-Prediction
-This is a repo for full pipeline with keypoints prediction using RNN/VAE/VRNN in reconstruction/transfer mode for VoxCeleb dataset.
 
-The Generated Videos folder contains generated videos of VRNN on (12, 12) type prediction in both reconstruction and transfer mode.
+# Description of the repository:
+This is a repo for keypoint prediction using RNN/VAE/VRNN in the First Order Motion Model pipeline. 
 
-The Training_Prediction folder contains related dataset and functions.
+# Directory Contents:
+The Generated Videos folder contains videos for the VoxCeleb dataset that have been generated in reconstruction and transfer mode using a prediction horizon of 12.
+
+The Training_Prediction folder contains the Voxceleb data file and functions related to FOMM in the subfolder FOMM and prediction using RNN, VAE and VRNN in the subfolder PREDICTOR.
+The FOMM subfolder files are sourced from the original FOMM github:
+https://github.com/AliaksandrSiarohin/first-order-model
+
+The PREDICTOR subfolder contains files for prediction using RNN, VAE and VRNN (sourced from https://github.com/google-research/google-research/tree/master/video_structure).
 
 The config folder contains the yaml file of VoxCeleb dataset.
 
@@ -11,11 +18,14 @@ The log folder is the directory we created to save generated videos.
 
 The jupyter files are named as "Full_Pipeline_{Deep Learning Network}\_VoxCeleb\_{Mode}_mode" where Deep Learning Network can be RNN/VAE/VRNN, and mode can be reconstruction mode/ transfer mode.
 
+# Checkpoints for FOMM model and keypoints 
 Checkpoints for RNN/VAE/VRNN are named as "{Deep Learning Network}_3883videos_vox_{# input frames}_{# output frames}" where {# input frames} and {# output frames} can be 6/12 indicates types of prediction.
 
-Checkpoints of VoxCeleb dataset in FOMM pipeline can be found with google drive link:
+Checkpoints for the FOMM model trained on the VoxCeleb dataset can be found under this google drive link. 
 https://drive.google.com/drive/folders/1pachVtWHibzDi3E61jUmqFfz2hVxA1GX?usp=drive_link
 
-To run this file in the given jupyter, please add this checkpoint file under path "Training_Prediction/FOMM/Trained_Models/"
+This file has been sources from the link in the original FOMM github:
+https://github.com/AliaksandrSiarohin/first-order-model
 
-The keypoints for 3883 VoxCeleb train videos can be found with the same google drive link.
+To run this file in the attached Jupyter notebooks, please copy the checkpoint file to the following path "Training_Prediction/FOMM/Trained_Models/" 
+The keypoints corresponding to 3883 VoxCeleb videos which can be used to train the RNN/VAE/VRNN can be found with the same google drive link.
