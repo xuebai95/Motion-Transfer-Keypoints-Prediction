@@ -14,9 +14,9 @@ The PREDICTOR subfolder contains files for prediction using RNN, VAE and VRNN (s
 
 The config folder contains the yaml file of VoxCeleb dataset.
 
-The log folder is the directory we created to save generated videos.
+The log folder is the directory for saving generated videos.
 
-The jupyter files are named as "Full_Pipeline_{Deep Learning Network}\_VoxCeleb\_{Mode}_mode" where Deep Learning Network can be RNN/VAE/VRNN, and mode can be reconstruction mode/ transfer mode.
+The jupyter files are named as "Full_Pipeline_{Deep Learning Network}\_VoxCeleb\_{Mode}_mode" where the Deep Learning Network used for keypoint prediction can be RNN/VAE/VRNN, and the mode can be set to reconstruction or transfer.
 
 # Checkpoints for FOMM model and keypoints 
 Checkpoints for RNN/VAE/VRNN are named as "{Deep Learning Network}_3883videos_vox_{# input frames}_{# output frames}" where {# input frames} and {# output frames} can be 6/12 indicates types of prediction.
