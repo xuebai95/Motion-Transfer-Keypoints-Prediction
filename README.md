@@ -17,7 +17,7 @@ https://github.com/AliaksandrSiarohin/first-order-model
 
 The PREDICTOR subfolder contains files for prediction using RNN, VAE and VRNN (partially sourced from https://github.com/google-research/google-research/tree/master/video_structure).
 
-The config folder under keypoints_Predictioncontains the yaml file of VoxCeleb dataset.
+The config folder under keypoints_Prediction contains the yaml file of VoxCeleb dataset.
 
 The checkpoints folder under keypoints_Prediction contains the trained RNN/VAE/VRNN keypoints prediction models using prediction horizon of 6 or 12 for RNN/VRNN and 5 or 15 for VAE.
 
