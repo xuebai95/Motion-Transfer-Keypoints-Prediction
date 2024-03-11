@@ -9,7 +9,6 @@ In each video, there are 4 boxes in a row, 1st box represents the soure image, 2
 
 The keypoints_Prediction folder contains Jupyter notebooks that can be used to run prediction using the RNN/VAE/VRNN in the FOMM pipeline in either reconstruction or transfer mode for the VoxCeleb dataset. This involves training the predictor and then performing inference. 
 The naming convention followed for the notebooks is as below:
-
 "Full_Pipeline_{Deep Learning Prediction Network}\_VoxCeleb\_{Mode}_mode" where the Deep Learning Network 
 
 The Training_Prediction folder under keypoints_Prediction contains the Voxceleb data file and functions related to FOMM inference in the subfolder FOMM and prediction using RNN, VAE and VRNN in the subfolder PREDICTOR.
