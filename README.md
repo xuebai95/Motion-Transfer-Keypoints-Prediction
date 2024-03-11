@@ -25,7 +25,7 @@ Checkpoints for RNN/VAE/VRNN are named as "{Deep Learning Network}\_3883videos_v
 
 The log folder under keypoints_Prediction is the directory for saving generated videos.
 
-The two pickle files under keypoints_Prediction are the keypoints corresponding to 44 VoxCeleb videos during inference saved for source image and driving video frames.
+The two pickle files under keypoints_Prediction are the keypoints corresponding to 44 VoxCeleb videos during inference for source image and driving video frames.
 # Checkpoints for FOMM model and keypoints 
 Checkpoints for the FOMM model trained on the VoxCeleb dataset can be found under this google drive link. 
 https://drive.google.com/drive/folders/1pachVtWHibzDi3E61jUmqFfz2hVxA1GX?usp=drive_link
