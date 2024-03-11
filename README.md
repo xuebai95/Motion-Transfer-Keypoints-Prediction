@@ -20,12 +20,11 @@ The PREDICTOR subfolder contains files for prediction using RNN, VAE and VRNN (p
 The config folder contains the yaml file of VoxCeleb dataset.
 
 The checkpoints folder contains the trained RNN/VAE/VRNN keypoints prediction models using prediction horizon of 6 or 12 for RNN/VRNN and 5 or 15 for VAE.
+Checkpoints for RNN/VAE/VRNN are named as "{Deep Learning Network}\_3883videos_vox_{# input frames}_{# output frames}" where {# input frames} and {# output frames} can be 6/12 indicates types of prediction.
 
 The log folder is the directory for saving generated videos.
 
 # Checkpoints for FOMM model and keypoints 
-Checkpoints for RNN/VAE/VRNN are named as "{Deep Learning Network}\_3883videos_vox_{# input frames}_{# output frames}" where {# input frames} and {# output frames} can be 6/12 indicates types of prediction.
-
 Checkpoints for the FOMM model trained on the VoxCeleb dataset can be found under this google drive link. 
 https://drive.google.com/drive/folders/1pachVtWHibzDi3E61jUmqFfz2hVxA1GX?usp=drive_link
 
