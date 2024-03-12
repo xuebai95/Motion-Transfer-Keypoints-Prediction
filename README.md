@@ -29,7 +29,8 @@ The Training_Prediction folder under Keypoints_Prediction contains the following
 The FOMM subfolder files are partially sourced from the original FOMM github:
 https://github.com/AliaksandrSiarohin/first-order-model
 
-The PREDICTOR subfolder contains files for prediction using RNN, VAE and VRNN (partially sourced from https://github.com/google-research/google-research/tree/master/video_structure).
+The PREDICTOR subfolder files are partially sourced from:
+https://github.com/google-research/google-research/tree/master/video_structure
 
 The config folder under Keypoints_Prediction contains the yaml file for the VoxCeleb dataset.
 
