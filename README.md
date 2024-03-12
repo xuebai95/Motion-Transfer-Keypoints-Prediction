@@ -20,7 +20,11 @@ The Keypoints_Prediction folder contains Jupyter notebooks that can be used to g
 The naming convention followed for the notebooks is:
 "Full_Pipeline_{Deep Learning Prediction Network}\_VoxCeleb\_{Mode}_mode" where the Deep Learning Prediction Network can be RNN/VAE/VRNN and Mode can be reconstruction or transfer.
 
-The Training_Prediction folder under Keypoints_Prediction contains the Voxceleb data file and functions related to FOMM inference in the subfolder FOMM and prediction using RNN, VAE and VRNN in the subfolder PREDICTOR.
+The Training_Prediction folder under Keypoints_Prediction contains the following:
+
+1. Voxceleb data files and various functions related to FOMM inference in the subfolder FOMM
+  
+2. Prediction using RNN, VAE and VRNN in the subfolder PREDICTOR.
 
 The FOMM subfolder files are partially sourced from the original FOMM github:
 https://github.com/AliaksandrSiarohin/first-order-model
@@ -29,7 +33,7 @@ The PREDICTOR subfolder contains files for prediction using RNN, VAE and VRNN (p
 
 The config folder under Keypoints_Prediction contains the yaml file for the VoxCeleb dataset.
 
-The checkpoints folder under Keypoints_Prediction contains the trained RNN/VAE/VRNN keypoints prediction models using prediction horizon of 6 or 12 for RNN/VRNN and 5 or 15 for VAE.
+The checkpoints folder under Keypoints_Prediction contains the trained RNN/VAE/VRNN keypoints prediction models using prediction horizons of 6 or 12 for RNN/VRNN and 5 or 15 for VAE.
 Checkpoints for RNN/VAE/VRNN are named as "{Deep Learning Network}\_3883videos_vox_{# input frames}_{# output frames}" where {# input frames} and {# output frames} can be 6/12 indicates types of prediction.
 
 The log folder under Keypoints_Prediction is the directory for saving generated videos.
