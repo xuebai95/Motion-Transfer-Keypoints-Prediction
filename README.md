@@ -7,13 +7,13 @@ This is a repo containing files related to keypoint prediction and video generat
 The Generated_Videos folder contains sample videos for the VoxCeleb dataset that have been generated in reconstruction and transfer modes using a prediction horizon of 12 video frames.
 In each video, there are 4 boxes as follows: 
 
-1. 1st box represents the source image 
+1.  Source image 
 
-2. 2nd box represents driving video frames with keypoints
+2. Driving video frames with keypoints
 
-3. 3rd box represents generated video from FOMM pipeline
+3. Generated video from FOMM pipeline
 
-4. 4th box represents generated video from FOMM with keypoints prediction using VRNN.
+4. Generated video from FOMM with keypoints prediction using VRNN.
 
 The keypoints_Prediction folder contains Jupyter notebooks that can be used to run prediction using the RNN/VAE/VRNN in the FOMM pipeline in either reconstruction or transfer mode for the VoxCeleb dataset. This involves training the predictor and then performing inference. 
 The naming convention followed for the notebooks is as below:
