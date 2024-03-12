@@ -37,13 +37,13 @@ Checkpoints for RNN/VAE/VRNN are named as "{Deep Learning Network}\_3883videos_v
 The log subfolder is the directory for saving generated videos.
 
 The two pickle files are the keypoints corresponding to 44 VoxCeleb videos during inference for source image and driving video frames.
-## Checkpoints for FOMM model and keypoints 
+## Checkpoints for the FOMM model and keypoints 
 Checkpoints for the FOMM model trained on the VoxCeleb dataset can be found under this google drive link. 
-https://drive.google.com/drive/folders/1pachVtWHibzDi3E61jUmqFfz2hVxA1GX?usp=drive_link
+https://drive.google.com/drive/folders/1pachVtWHibzDi3E61jUmqFfz2hVxA1GX?usp=drive_link.
 
 This file has been sourced using the link in the original FOMM github:
-https://github.com/AliaksandrSiarohin/first-order-model
+https://github.com/AliaksandrSiarohin/first-order-model.
 
-To run this file in the attached Jupyter notebooks, please copy the checkpoint file to the following path "Training_Prediction/FOMM/Trained_Models/" 
+To run this file in the attached Jupyter notebooks, please copy the checkpoint file to the following path "Training_Prediction/FOMM/Trained_Models/".
 
 The keypoints corresponding to 3883 VoxCeleb videos which can be used to train the RNN/VAE/VRNN can be found with the same google drive link.
