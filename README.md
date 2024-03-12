@@ -1,9 +1,9 @@
-## Motion-Transfer-Keypoints-Prediction
+# Motion-Transfer-Keypoints-Prediction
 
-# Description of the repository:
+## Description of the repository:
 This is a repo containing files related to keypoint prediction and video generation using RNN/VAE/VRNN in the First Order Motion Model (FOMM) pipeline. 
 
-# Directory Contents:
+## Directory Contents:
 The Generated_Videos folder contains sample videos for the VoxCeleb dataset that have been generated in reconstruction and transfer mode using a prediction horizon of 12.
 In each video, there are 4 boxes in a row, 1st box represents the source image, 2nd box represents driving video frames with keypoints, 3rd box represents generated video from FOMM pipeline and 4th box represents generated video from FOMM with keypoints prediction using VRNN.
 
@@ -26,7 +26,7 @@ Checkpoints for RNN/VAE/VRNN are named as "{Deep Learning Network}\_3883videos_v
 The log folder under keypoints_Prediction is the directory for saving generated videos.
 
 The two pickle files under keypoints_Prediction are the keypoints corresponding to 44 VoxCeleb videos during inference for source image and driving video frames.
-# Checkpoints for FOMM model and keypoints 
+## Checkpoints for FOMM model and keypoints 
 Checkpoints for the FOMM model trained on the VoxCeleb dataset can be found under this google drive link. 
 https://drive.google.com/drive/folders/1pachVtWHibzDi3E61jUmqFfz2hVxA1GX?usp=drive_link
 
