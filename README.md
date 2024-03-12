@@ -20,9 +20,9 @@ The Keypoints_Prediction folder contains Jupyter notebooks that can be used to g
 The naming convention followed for the notebooks is:
 "Full_Pipeline_{Deep Learning Prediction Network}\_VoxCeleb\_{Mode}_mode" where the Deep Learning Prediction Network can be RNN/VAE/VRNN and Mode can be reconstruction or transfer.
 
-* The Training_Prediction folder under Keypoints_Prediction contains the following:
+The Training_Prediction folder under Keypoints_Prediction contains the following:
 
-* 1. The subfolder FOMM contains Voxceleb data files and various functions related to FOMM inference.
+1. The subfolder FOMM contains Voxceleb data files and various functions related to FOMM inference.
 The files are partially sourced from the original FOMM github:
 https://github.com/AliaksandrSiarohin/first-order-model.
 
@@ -30,12 +30,12 @@ https://github.com/AliaksandrSiarohin/first-order-model.
 The files are partially sourced from:
 https://github.com/google-research/google-research/tree/master/video_structure.
 
-* The config folder under Keypoints_Prediction contains the yaml file for the VoxCeleb dataset.
+The config folder under Keypoints_Prediction contains the yaml file for the VoxCeleb dataset.
 
-* The checkpoints folder under Keypoints_Prediction contains the trained RNN/VAE/VRNN keypoints prediction models using prediction horizons of 6 or 12 for RNN/VAE/VRNN.
-* Checkpoints for RNN/VAE/VRNN are named as "{Deep Learning Network}\_3883videos_vox_{# input frames}_{# output frames}" where {# input frames} and {# output frames} can be 6/12 indicates types of prediction.
+The checkpoints folder under Keypoints_Prediction contains the trained RNN/VAE/VRNN keypoints prediction models using prediction horizons of 6 or 12 for RNN/VAE/VRNN.
+Checkpoints for RNN/VAE/VRNN are named as "{Deep Learning Network}\_3883videos_vox_{# input frames}_{# output frames}" where {# input frames} and {# output frames} can be 6/12 indicates types of prediction.
 
-* The log folder under Keypoints_Prediction is the directory for saving generated videos.
+The log folder under Keypoints_Prediction is the directory for saving generated videos.
 
 The two pickle files under Keypoints_Prediction are the keypoints corresponding to 44 VoxCeleb videos during inference for source image and driving video frames.
 ## Checkpoints for FOMM model and keypoints 
