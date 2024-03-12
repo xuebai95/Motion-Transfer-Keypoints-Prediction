@@ -32,8 +32,8 @@ https://github.com/google-research/google-research/tree/master/video_structure.
 
 The config folder under Keypoints_Prediction contains the yaml file for the VoxCeleb dataset.
 
-The checkpoints folder under Keypoints_Prediction contains the trained RNN/VAE/VRNN keypoints prediction models using prediction horizons of 6 or 12 for RNN/VRNN and 5 or 15 for VAE.
-Checkpoints for RNN/VAE/VRNN are named as "{Deep Learning Network}\_3883videos_vox_{# input frames}_{# output frames}" where {# input frames} and {# output frames} can be 6/12 indicates types of prediction.
+The checkpoints folder under Keypoints_Prediction contains the trained RNN/VAE/VRNN keypoints prediction models using prediction horizons of 6 or 12 for RNN/VAE/VRNN.
+* Checkpoints for RNN/VAE/VRNN are named as "{Deep Learning Network}\_3883videos_vox_{# input frames}_{# output frames}" where {# input frames} and {# output frames} can be 6/12 indicates types of prediction.
 
 The log folder under Keypoints_Prediction is the directory for saving generated videos.
 
