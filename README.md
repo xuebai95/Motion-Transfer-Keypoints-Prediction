@@ -22,9 +22,9 @@ The naming convention followed for the notebooks is:
 
 The Training_Prediction folder under Keypoints_Prediction contains the following:
 
-1. Voxceleb data files and various functions related to FOMM inference in the subfolder FOMM
+1. The subfolder FOMM contains Voxceleb data files and various functions related to FOMM inference.
   
-2. Prediction using RNN, VAE and VRNN in the subfolder PREDICTOR.
+2. The subfolder PREDICTOR contains prediction functions using RNN, VAE and VRNN.
 
 The FOMM subfolder files are partially sourced from the original FOMM github:
 https://github.com/AliaksandrSiarohin/first-order-model
