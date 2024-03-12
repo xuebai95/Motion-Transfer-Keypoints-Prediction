@@ -1,7 +1,7 @@
-# Motion-Transfer-Keypoints-Prediction
+## Motion-Transfer-Keypoints-Prediction
 
 # Description of the repository:
-This is a repo containing files for keypoint prediction and video generation using RNN/VAE/VRNN in the First Order Motion Model (FOMM) pipeline. 
+This is a repo containing files related to keypoint prediction and video generation using RNN/VAE/VRNN in the First Order Motion Model (FOMM) pipeline. 
 
 # Directory Contents:
 The Generated_Videos folder contains sample videos for the VoxCeleb dataset that have been generated in reconstruction and transfer mode using a prediction horizon of 12.
