@@ -4,12 +4,12 @@
 This is a repo containing files for keypoint prediction and video generation using RNN/VAE/VRNN in the First Order Motion Model (FOMM) pipeline. 
 
 # Directory Contents:
-The Generated Videos folder contains sample videos for the VoxCeleb dataset that have been generated in reconstruction and transfer mode using a prediction horizon of 12.
-In each video, there are 4 boxes in a row, 1st box represents the soure image, 2nd box represents driving video frames with keypoint, 3rd box represents generated video from FOMM pipeline and 4th box represents generated video from FOMM with keypoints prediction using VRNN.
+The Generated_Videos folder contains sample videos for the VoxCeleb dataset that have been generated in reconstruction and transfer mode using a prediction horizon of 12.
+In each video, there are 4 boxes in a row, 1st box represents the source image, 2nd box represents driving video frames with keypoints, 3rd box represents generated video from FOMM pipeline and 4th box represents generated video from FOMM with keypoints prediction using VRNN.
 
 The keypoints_Prediction folder contains Jupyter notebooks that can be used to run prediction using the RNN/VAE/VRNN in the FOMM pipeline in either reconstruction or transfer mode for the VoxCeleb dataset. This involves training the predictor and then performing inference. 
 The naming convention followed for the notebooks is as below:
-"Full_Pipeline_{Deep Learning Prediction Network}\_VoxCeleb\_{Mode}_mode" where the Deep Learning Network 
+"Full_Pipeline_{Deep Learning Prediction Network}\_VoxCeleb\_{Mode}_mode" where the Deep Learning Prediction Network can be RNN/VAE/VRNN and Mode can be reconstruction or transfer.
 
 The Training_Prediction folder under keypoints_Prediction contains the Voxceleb data file and functions related to FOMM inference in the subfolder FOMM and prediction using RNN, VAE and VRNN in the subfolder PREDICTOR.
 
