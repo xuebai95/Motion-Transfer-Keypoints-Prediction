@@ -27,7 +27,7 @@ https://github.com/AliaksandrSiarohin/first-order-model.
 
 2. The subfolder PREDICTOR contains prediction functions using RNN, VAE and VRNN.
 The files are partially sourced from:
-https://github.com/google-research/google-research/tree/master/video_structure.
+https://github.com/google-research/google-research/tree/master/video_structure, https://github.com/msmbuilder/vde.
 
 The config subfolder contains the yaml file for the VoxCeleb dataset.
 
