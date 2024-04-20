@@ -13,7 +13,7 @@ In each video, there are 4 boxes as follows:
 
 3. Generated video from FOMM pipeline
 
-4. Generated video from FOMM with keypoints prediction using VRNN
+4. Generated video from FOMM with keypoints prediction using VRNN (the red box indicates the predicted frames)
 
 **The Keypoints_Prediction folder** contains Jupyter notebooks that can be used to generate predictions using RNN/VAE/VRNN in the FOMM pipeline in either reconstruction or transfer mode for the VoxCeleb dataset.
 The naming convention followed for the notebooks is:
