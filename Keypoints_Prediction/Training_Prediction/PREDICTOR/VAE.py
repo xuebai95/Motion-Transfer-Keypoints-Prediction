@@ -13,7 +13,7 @@ import torch.optim as optim
 from torch.autograd import Variable
 from torch.utils.data import DataLoader
 
-from utils import initialize_weights
+from .utils import initialize_weights
 
 __all__ = ['VDE']
 

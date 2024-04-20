@@ -1,5 +1,5 @@
 dataset_params:
-  root_dir: /home/jovyan/srinjoy-gan-vol/keypoints_project/Training_Prediction/FOMM/datasets/voxceleb
+  root_dir: /keypoints_project/Training_Prediction/FOMM/datasets/voxceleb
   frame_shape: [256, 256, 3]
   id_sampling: False
   augmentation_params:
