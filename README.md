@@ -18,6 +18,7 @@ In each video, there are 4 boxes as follows:
 **The Keypoints_Prediction folder** contains Jupyter notebooks that can be used to generate predictions using RNN/VAE/VRNN in the FOMM pipeline in either reconstruction or transfer mode for the VoxCeleb dataset.
 The naming convention followed for the notebooks is:
 "Full_Pipeline_{Deep Learning Prediction Network}\_VoxCeleb\_{Mode}_mode" where the Deep Learning Prediction Network can be RNN/VAE/VRNN and Mode can be reconstruction or transfer.
+**To replicate the results of reconstruction model or transfer mode for VRNN please use "Full_Pipeline_VRNN_VoxCeleb_reconstruction_mode_pytorch.ipynb" or "Full_Pipeline_VRNN_VoxCeleb_transfer_mode_pytorch.ipynb" respectively.**
 
 The Training_Prediction subfolder contains the following:
 
